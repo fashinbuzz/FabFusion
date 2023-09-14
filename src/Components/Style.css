@@ -1,0 +1,21 @@
+.backrground1{
+    background-image: url("./Image/about1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.backrground2{
+    background-image: url("./Image/about2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-carousel .slick-dots li button{
+    background-color: black !important;
+}
+.scrollbar1::-webkit-scrollbar{
+    width: 0px;
+}
