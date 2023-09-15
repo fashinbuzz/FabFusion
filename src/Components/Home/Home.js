@@ -238,9 +238,9 @@ function Home() {
 
             <div className="grid text-center my-5 place-items-center">
                 <p className='text-xl text-[#545B77] font-medium mb-3'>Frequently Asked Questions</p>
-                <div>
+                <div className='w-[300px] px-5 sm:w-[600px] sm:px-8 md:w-[700px] lg:w-[900px] lg:px-10 '>
                     {/* todo: carousel */}
-                    <Carousel effect="fade" className='max-w-[1100px]'>
+                    <Carousel effect="fade" className=''>
 
                         <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] text-[#545B77] '>
                             <p className='text-black text-xl'>1.How long does it take to get my order?</p>
