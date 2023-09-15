@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -8,23 +9,54 @@ function Footer() {
                 <p>FashinBuzz</p>
                 <div className='flex justify-start items-center gap-2'>
                     {/* <img src="/Images/Group 23130.png" alt="" className='p-1 w-8'/> */}
+                    <i class="fa fa-phone text-white" aria-hidden="true"></i>
+                    <p className='text-sm'>+91 84608 00999</p>
+                </div>
+                <div className='flex justify-start items-center gap-2'>
+                    {/* <img src="/Images/Group 23130.png" alt="" className='p-1 w-8'/> */}
                     <i class="fa fa-envelope text-white" aria-hidden="true"></i>
-                    <p className='text-sm'>hello@fashinbuzz.com</p>
+                    <p className='text-sm'>help@fashinbuzz.com</p>
                 </div>
             </div>
 
             <div className='grid gap-y-1  text-xs '>
                 <h3 className='border-b-[0.5px] text-base'>What we are?</h3>
-                <p>About Us</p>
-                <p>Blog</p>
-                <p>Contact us</p>
+
+                <Link to="/about">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>About Us</p>
+                    </div>
+                </Link>
+                <Link to="/blog">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>Blog</p>
+                    </div>
+                </Link>
+                <Link to="/mail">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>Connect with us</p>
+                    </div>
+                </Link>
+
             </div>
 
             <div className='grid gap-y-1  text-xs '>
                 <h3 className='border-b-[0.5px] text-base'>What we provide?</h3>
-                <p>Product Category</p>
-                <p>Our Services</p>
-                <p>Our Process</p>
+                <Link to="/category">
+                    <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>Product Categories</p>
+                    </div>
+                </Link>
+                <Link to="/service">
+                    <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>Our Services</p>
+                    </div>
+                </Link>
+                <Link to="/process">
+                    <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='font-medium  '>Our Process</p>
+                    </div>
+                </Link>
             </div>
 
             <div className='grid grid-cols-3 place-items-center pb-3 gap-y-1  border-black'>

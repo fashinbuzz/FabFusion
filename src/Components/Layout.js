@@ -46,39 +46,39 @@ function Layout() {
                             key={placement}
                             className='relative'
                         >
-                            <Link to="/" >
+                            <Link to="/" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Home</p>
                                 </div>
                             </Link>
-                            <Link to="/about">
+                            <Link to="/about" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>About Us</p>
                                 </div>
                             </Link>
-                            <Link to="/blog">
+                            <Link to="/blog" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Blog</p>
                                 </div>
                             </Link>
-                            <Link to="/service">
+                            <Link to="/service" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Our Services</p>
                                 </div>
                             </Link>
-                            <Link to="/process">
+                            <Link to="/process" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Process</p>
                                 </div>
                             </Link>
-                            <Link to="/category">
+                            <Link to="/category" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Categories</p>
                                 </div>
                             </Link>
-                            <Link to="">
+                            <Link to="/connect">
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
-                                    <p className='font-medium  '>mail</p>
+                                    <p className='font-medium  '>Connect</p>
                                 </div>
                             </Link>
                             <button onClick={() => setOpen(false)} className='border border-black rounded-md px-3 py-1 absolute bottom-5 right-5'>close</button>
@@ -86,7 +86,6 @@ function Layout() {
                     </div>
 
                     <div className='hidden md:flex gap-8 justify-between items-center xl:text-2xl'>
-
 
                         <Link to="/">
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
@@ -118,9 +117,9 @@ function Layout() {
                                 <p className='font-medium  '>Categories</p>
                             </div>
                         </Link>
-                        <Link to="/mail">
+                        <Link to="/connect">
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
-                                <p className='font-medium  '>mail</p>
+                                <p className='font-medium  '>Connect with us</p>
                             </div>
                         </Link>
 
@@ -129,7 +128,6 @@ function Layout() {
             </div>
 
             <div className="grid px-2 py-5">
-
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
@@ -137,7 +135,7 @@ function Layout() {
                     <Route path="/service" element={<Services />} />
                     <Route path="/process" element={<Process />} />
                     <Route path="/category" element={<Category />} />
-                    <Route path="/mail" element={<Mail />} />
+                    <Route path="/connect" element={<Mail />} />
                     <Route path="/blog-" element={<Blog />} />
                 </Routes>
             </div>

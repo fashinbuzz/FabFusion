@@ -38,15 +38,15 @@ function Home() {
 
             <div className="grid grid-cols-3 my-10">
                 <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5'>
-                    <p className='text-2xl font-medium md:text-4xl'>10k</p>
+                    <p className='text-lg font-medium md:text-2xl px-5'>Almost all the modern & future design</p>
                     <p className='text-xs md:text-xl'>Designs</p>
                 </div>
-                <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e translate-y-[-10px] hover:translate-y-[2px] md:py-5'>
-                    <p className='text-2xl font-medium md:text-4xl'>50</p>
+                <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5'>
+                    <p className='text-2xl font-medium md:text-4xl'>100</p>
                     <p className='text-xs md:text-xl'>MOQ</p>
                 </div>
                 <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5 '>
-                    <p className='text-2xl font-medium md:text-4xl'>21</p>
+                    <p className='text-2xl font-medium md:text-2xl'>Fastest delivery service</p>
                     <p className='text-xs md:text-xl'>Days Delivery</p>
                 </div>
             </div>
@@ -57,37 +57,34 @@ function Home() {
                 </div>
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
                     <div className="col-span-1">
-                        <img src="/Images/service3.png" alt="" />
+                        <img src="/Images/service3.png" alt="" className='min-h-full min-w-full'/>
                     </div>
-                    <div className="col-span-4 text-[#545B77] text-sm text-center">
+                    <div className="col-span-4 text-[#545B77] text-sm text-center px-5 place-items-center">
                         <p className='font-medium text-lg'>Design</p>
-                        <p>Each design is a concept at.....</p>
+                        <p>At FashinBuzz, innovation is at the core of what we do. we also provide state-of-the-art design solutions for garments that leverage the latest software and AI technologies.</p>
                     </div>
                 </div>
 
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
                     <div className="col-span-1">
-                        <img src="/Images/service2.png" alt="" />
+                        <img src="/Images/service2.png" alt=""  className='min-h-full min-w-full'/>
                     </div>
-                    <div className="col-span-4 text-[#545B77] text-sm text-center">
+                    <div className="col-span-4 text-[#545B77] text-sm text-center px-5">
                         <p className='font-medium text-lg'>Manufacturing</p>
-                        <p>Each design is a concept at.....</p>
+                        <p>we have harnessed the transformative capabilities of AI to revolutionize our manufacturing processes, ensuring the production of high-quality products that meet and exceed industry standards. </p>
                     </div>
                 </div>
 
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
                     <div className="col-span-1">
-                        <img src="/Images/service1.png" alt="" />
+                        <img src="/Images/service1.png" alt=""  className='min-h-full min-w-full'/>
                     </div>
                     <div className="col-span-4 text-[#545B77] text-sm text-center">
                         <p className='font-medium text-lg'>Delivery</p>
-                        <p>Each design is a concept at.....</p>
+                        <p>Experience lightning-fast delivery with us! At FashinBuzz, we take pride in providing the quickest delivery times in the industry, and we have the statistics to prove it. </p>
                     </div>
                 </div>
 
-                <div className='grid place-items-center lg:col-span-3'>
-                    <button className='bg-[#545b77] px-3 py-1 rounded-md text-white'>Benifit of...</button>
-                </div>
             </div>
 
             <div className="grid grid-cols-1 gap-5 my-10 px-4 text-center text-[#545b77] md:grid-cols-2">
@@ -98,20 +95,20 @@ function Home() {
                 <div className='border border-[#545b77] rounded-md  overflow-hidden'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23186.png" alt="" className='p-1 w-12' />
-                        <p>AI-driven-trend forecasting</p>
+                        <p>Harnessing AI for Trend Prediction</p>
                     </div>
                     <div className='text-start text-sm my-3 px-2'>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p> the latest fashion trends</p>
+                            <p>Using AI, We can minimize dead-stock.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Exclusive digital designs</p>
+                            <p>Get update with latest design</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Quick access to all designs</p>
+                            <p>Reduce burden for making design everyday</p>
                         </div>
                     </div>
                 </div>
@@ -119,20 +116,20 @@ function Home() {
                 <div className='border border-[#545b77] rounded-md  overflow-hidden'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23180.png" alt="" className='p-1 w-12' />
-                        <p>Extensive Styles in Unlimited Fabrics</p>
+                        <p>Wide Variety of Designs in Limitless Fabric Options</p>
                     </div>
                     <div className='text-start text-sm my-3 px-2'>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>10k+ styles in 3k fabrics monthly</p>
+                            <p>We have thousands of fabric option across all type of fabrics.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Best of all categories</p>
+                            <p>We give best price in the world.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Easy sample request</p>
+                            <p>Get latest update on fabric everyday.</p>
                         </div>
                     </div>
                 </div>
@@ -140,20 +137,20 @@ function Home() {
                 <div className='border border-[#545b77] rounded-md  overflow-hidden'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23112 (2).png" alt="" className='p-1 w-12' />
-                        <p>Lowest MOQs 50 pieces/style</p>
+                        <p>Minimum Order Quantity (MOQ) as Low as 100 Pieces per Style</p>
                     </div>
                     <div className='text-start text-sm my-3 px-2'>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Direct access to lean inventory</p>
+                            <p>No overstock issues.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Chat in real-time for ordering</p>
+                            <p>All size variant available.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Customizable orders with feasible MOQs</p>
+                            <p>We check quality on each phase.</p>
                         </div>
                     </div>
                 </div>
@@ -161,20 +158,20 @@ function Home() {
                 <div className='border border-[#545b77] rounded-md  overflow-hidden'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23112 (1).png" alt="" className='p-1 w-12' />
-                        <p>Design to Delivery in 21 days</p>
+                        <p>Design to Delivery fastest.</p>
                     </div>
                     <div className='text-start text-sm my-3 px-2'>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Lightning fast TATs</p>
+                            <p>We present every-stage of supply chain.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>10X faster production</p>
+                            <p>Secure packaging.</p>
                         </div>
                         <div className='flex justify-start items-center gap-1'>
                             <i class="fa fa-circle text-[5px]" aria-hidden="true"></i>
-                            <p>Dedicated customer success manager</p>
+                            <p>Transparent logistic.</p>
                         </div>
                     </div>
                 </div>
@@ -243,28 +240,42 @@ function Home() {
                     <Carousel effect="fade" className=''>
 
                         <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] text-[#545B77] '>
-                            <p className='text-black text-xl'>1.How long does it take to get my order?</p>
-                            <p className='text-[#545b77]'>We promise to provide end-to-end design-to-delivery solutions within three weeks</p>
+                            <p className='text-black text-xl'>1.What is benifit from your side?</p>
+                            <p className='text-[#545b77]'>We have transparent supply chain and have best technology. for D2C fashionbrand, we are one of the top manufacturing service provider in india. we provide omnichannel platform.</p>
                         </div>
 
 
                         <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
-                            <p className='text-black text-xl'>2.How long does it take to get my order?</p>
-                            <p className='text-[#545b77]'>We promise to provide end-to-end design-to-delivery solutions within three weeks</p>
+                            <p className='text-black text-xl'>2.What is delivery time</p>
+                            <p className='text-[#545b77]'>it may take around 2 to 3 weeks.</p>
                         </div>
 
 
                         <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
-                            <p className='text-black text-xl'>3.How long does it take to get my order?</p>
-                            <p className='text-[#545b77]'>We promise to provide end-to-end design-to-delivery solutions within three weeks</p>
+                            <p className='text-black text-xl'>3.Minimun Order quantity?</p>
+                            <p className='text-[#545b77]'>100 pieces.</p>
                         </div>
 
 
                         <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
-                            <p className='text-black text-xl'>4.How long does it take to get my order?</p>
-                            <p className='text-[#545b77]'>We promise to provide end-to-end design-to-delivery solutions within three weeks</p>
+                            <p className='text-black text-xl'>4.You provide design or not?</p>
+                            <p className='text-[#545b77]'>Yes, we provide design .</p>
                         </div>
 
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                            <p className='text-black text-xl'>5.what if I received damage peice in delivery?</p>
+                            <p className='text-[#545b77]'>We have claim process.</p>
+                        </div>
+
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                            <p className='text-black text-xl'>6.Payment condition?</p>
+                            <p className='text-[#545b77]'>Any first 3 bill in advance then ww will provide credit facility.</p>
+                        </div>
+
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                            <p className='text-black text-xl'>5.is there customer support available?</p>
+                            <p className='text-[#545b77]'>We build relation by heart with our client , so we take your hurdles.</p>
+                        </div>
                     </Carousel>
                 </div>
 

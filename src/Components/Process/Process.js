@@ -14,32 +14,32 @@ function Process() {
                 <div className="grid  text-center place-items-center gap-y-5">
                     <img src="/Images/Group 23180.png" alt="" className='p-1 w-16' />
                     <div className='grid gap-y-3 border-2 border-[#545B77] rounded-md px-3 py-2  min-h-[200px] md:min-h-[250px] '   >
-                        <p className='text-[#545B77] text-xl font-medium'>Brand profiling and requirement</p>
-                        <p className='text-[#545B77]'>After working out your conceptualized requirements and receiving your submission, we put forward a custom price estimate for your order.</p>
+                        <p className='text-[#545B77] text-xl font-medium'>Brand Profiling and Customized Pricing</p>
+                        <p className='text-[#545B77]'>Once we thoroughly understand your brand's unique requirements and specifications, we move forward to create a tailored pricing proposal for your order. This personalized pricing estimate is crafted after careful consideration of your conceptualized needs and your submission, ensuring that it aligns perfectly with your brand's objectives and expectations.</p>
                     </div>
                 </div>
 
                 <div className="grid  text-center place-items-center gap-y-5">
                     <img src="/Images/Group 23186.png" alt="" className='p-1 w-16' />
                     <div className='grid gap-y-3 border-2 border-[#545B77] rounded-md px-3 py-2 min-h-[200px] md:min-h-[250px]'>
-                        <p className='text-[#545B77] text-xl font-medium'>AI driven design catalogue</p>
-                        <p className='text-[#545B77]'>Our revolutionary AI-driven design catalogue! With our cutting-edge technology, we've transformed the design process by using artificial intelligence to create stunning designs that perfectly match your style and preferences.</p>
+                        <p className='text-[#545B77] text-xl font-medium'>Revolutionizing Design with AI-Powered Catalogue</p>
+                        <p className='text-[#545B77]'>Welcome to our groundbreaking AI-driven design catalogue! Our innovative technology has redefined the design experience, utilizing artificial intelligence to craft exquisite designs that seamlessly align with your unique style and preferences. Explore the future of design with us.</p>
                     </div>
                 </div>
 
                 <div className="grid  text-center place-items-center gap-y-5">
                     <img src="/Images/Group 23185.png" alt="" className='p-1 w-16' />
                     <div className='grid gap-y-3 border-2 border-[#545B77] rounded-md px-3 py-2 min-h-[200px] md:min-h-[250px]'>
-                        <p className='text-[#545B77] text-xl font-medium'>Quality Checks & Control</p>
-                        <p className='text-[#545B77]'>We follow a rigorous quality check via a dedicated quality control team and product development advisor and ensure you face fewer disruptions related to your order’s quality before packaging..</p>
+                        <p className='text-[#545B77] text-xl font-medium'>Stringent Quality Control Measures</p>
+                        <p className='text-[#545B77]'>Our commitment to excellence is reflected in our rigorous quality checks, overseen by a dedicated team of quality control experts and product development advisors. These measures are in place to minimize any disruptions related to the quality of your order before it reaches the packaging stage, ensuring a seamless and top-tier experience for you.</p>
                     </div>
                 </div>
 
                 <div className="grid  text-center place-items-center gap-y-5">
                     <img src="/Images/Group 23184.png" alt="" className='p-1 w-16' />
                     <div className='grid gap-y-3 border-2 border-[#545B77] rounded-md px-3 py-2 min-h-[200px] md:min-h-[250px]'>
-                        <p className='text-[#545B77] text-xl font-medium'>Delivery</p>
-                        <p className='text-[#545B77]'>It's the final stage when we handle the packaging and shipping paperwork and arrange 24X7 end-to-end logistics solutions for your order to be shipped to your doorstep within 21 days.</p>
+                        <p className='text-[#545B77] text-xl font-medium'>Efficient Delivery Services</p>
+                        <p className='text-[#545B77]'>In the concluding phase of our process, we take charge of meticulous packaging, handle all shipping paperwork, and orchestrate round-the-clock end-to-end logistics solutions to ensure the timely delivery of your order to your doorstep, guaranteeing a delivery window of on time.</p>
                     </div>
                 </div>
             </div>
