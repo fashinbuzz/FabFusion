@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fabfusion-93f2d"
-  }
+    "default": "fabfusion-93f2d",
+    "stagin": "fabfusion-93f2d"
+  },
+  "targets": {},
+  "etags": {}
 }

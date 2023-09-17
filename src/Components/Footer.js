@@ -21,7 +21,6 @@ function Footer() {
 
             <div className='grid gap-y-1  text-xs '>
                 <h3 className='border-b-[0.5px] text-base'>What we are?</h3>
-
                 <Link to="/about">
                     <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
                         <p className='font-medium  '>About Us</p>
@@ -37,9 +36,7 @@ function Footer() {
                         <p className='font-medium  '>Connect with us</p>
                     </div>
                 </Link>
-
             </div>
-
             <div className='grid gap-y-1  text-xs '>
                 <h3 className='border-b-[0.5px] text-base'>What we provide?</h3>
                 <Link to="/category">
