@@ -10,12 +10,12 @@ function Footer() {
                 <div className='flex justify-start items-center gap-2'>
                     {/* <img src="/Images/Group 23130.png" alt="" className='p-1 w-8'/> */}
                     <i class="fa fa-phone text-white" aria-hidden="true"></i>
-                    <p className='text-sm'>+91 84608 00999</p>
+                    <a href="tel:+918460800999" className='text-sm'>+91 84608 00999</a>
                 </div>
                 <div className='flex justify-start items-center gap-2'>
                     {/* <img src="/Images/Group 23130.png" alt="" className='p-1 w-8'/> */}
                     <i class="fa fa-envelope text-white" aria-hidden="true"></i>
-                    <p className='text-sm'>help@fashinbuzz.com</p>
+                    <Link to={'mailto:help@fashinbuzz.com'} className='text-sm'>help@fashinbuzz.com</Link>
                 </div>
             </div>
 
