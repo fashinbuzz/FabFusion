@@ -23,17 +23,17 @@ function Footer() {
                 <h3 className='border-b-[0.5px] text-base'>What we are?</h3>
                 <Link to="/about">
                     <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>About Us</p>
+                        <p className=''>About Us</p>
                     </div>
                 </Link>
                 <Link to="/blog">
                     <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>Blog</p>
+                        <p className='  '>Blog</p>
                     </div>
                 </Link>
                 <Link to="/mail">
                     <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>Connect with us</p>
+                        <p className='  '>Connect with us</p>
                     </div>
                 </Link>
             </div>
@@ -41,17 +41,17 @@ function Footer() {
                 <h3 className='border-b-[0.5px] text-base'>What we provide?</h3>
                 <Link to="/category">
                     <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>Product Categories</p>
+                        <p className='font-light  '>Product Categories</p>
                     </div>
                 </Link>
                 <Link to="/service">
                     <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>Our Services</p>
+                        <p className='font-light  '>Our Services</p>
                     </div>
                 </Link>
                 <Link to="/process">
                     <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
-                        <p className='font-medium  '>Our Process</p>
+                        <p className='font-light  '>Our Process</p>
                     </div>
                 </Link>
             </div>

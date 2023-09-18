@@ -29,7 +29,7 @@ function Layout() {
         <div className="container min-w-full">
             <div className="grid grid-cols-2 px-2 py-2 border-b-[0.5px] md:grid-cols-5 md:px-10 xl:px-20">
                 <div className='md:col-span-1'>
-                    <p>FashinBuzz</p>
+                    <p className='text-xl text-[#545b77] font-medium'>FashinBuzz</p>
                 </div>
                 <div className='grid md:col-span-4'>
 

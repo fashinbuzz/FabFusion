@@ -39,7 +39,6 @@ function Home() {
             <div className="grid grid-cols-3 my-10">
                 <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5'>
                     <p className='text-lg font-medium md:text-2xl px-5'>Almost all the modern & future design</p>
-                    <p className='text-xs md:text-xl'>Designs</p>
                 </div>
                 <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5'>
                     <p className='text-2xl font-medium md:text-4xl'>100</p>
@@ -47,41 +46,50 @@ function Home() {
                 </div>
                 <div className='text-[#545B77] bg-[#f3f6ff]  text-center py-2 border-e hover:translate-y-[2px] md:py-5 '>
                     <p className='text-2xl font-medium md:text-2xl'>Fastest delivery service</p>
-                    <p className='text-xs md:text-xl'>Days Delivery</p>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-y-3 text-center lg:grid-cols-3 gap-5">
-                <div className='lg:col-span-3'>
+            <div className="grid grid-cols-1 gap-y-3 text-center lg:grid-cols-2 gap-5 xl:grid-cols-4">
+                <div className='lg:col-span-2 xl:col-span-4'>
                     <p className='text-xl mb-3 text-[#545B77]'>Our Services</p>
                 </div>
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-1">
-                        <img src="/Images/service3.png" alt="" className='min-h-full min-w-full'/>
+                    <div className="col-span-2 p-2">
+                        <img src="/Images/service3.png" alt="" className=' min-w-full' />
                     </div>
-                    <div className="col-span-4 text-[#545B77] text-sm text-center px-5 place-items-center">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2 place-items-center">
                         <p className='font-medium text-lg'>Design</p>
                         <p>At FashinBuzz, innovation is at the core of what we do. we also provide state-of-the-art design solutions for garments that leverage the latest software and AI technologies.</p>
                     </div>
                 </div>
 
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-1">
-                        <img src="/Images/service2.png" alt=""  className='min-h-full min-w-full'/>
+                    <div className="col-span-2 p-2">
+                        <img src="/Images/service2.png" alt="" className=' min-w-full' />
                     </div>
-                    <div className="col-span-4 text-[#545B77] text-sm text-center px-5">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2">
                         <p className='font-medium text-lg'>Manufacturing</p>
                         <p>we have harnessed the transformative capabilities of AI to revolutionize our manufacturing processes, ensuring the production of high-quality products that meet and exceed industry standards. </p>
                     </div>
                 </div>
 
                 <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-1">
-                        <img src="/Images/service1.png" alt=""  className='min-h-full min-w-full'/>
+                    <div className="col-span-2 p-2">
+                        <img src="/Images/service1.png" alt="" className=' min-w-full' />
                     </div>
-                    <div className="col-span-4 text-[#545B77] text-sm text-center">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center">
                         <p className='font-medium text-lg'>Delivery</p>
                         <p>Experience lightning-fast delivery with us! At FashinBuzz, we take pride in providing the quickest delivery times in the industry, and we have the statistics to prove it. </p>
+                    </div>
+                </div>
+
+                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
+                    <div className="col-span-2 p-2">
+                        <img src="/Images/vs1.png" alt="" className=' min-w-full' />
+                    </div>
+                    <div className="col-span-3 text-[#545B77] text-sm text-center">
+                        <p className='font-medium text-lg'>Virtual Sampling</p>
+                        <p>Coming soon...</p>
                     </div>
                 </div>
 
@@ -235,7 +243,7 @@ function Home() {
 
             <div className="grid text-center my-5 place-items-center">
                 <p className='text-xl text-[#545B77] font-medium mb-3'>Frequently Asked Questions</p>
-                <div className='w-[300px] px-5 sm:w-[600px] sm:px-8 md:w-[700px] lg:w-[900px] lg:px-10 '>
+                <div className='w-[300px] px-2 sm:w-[600px] sm:px-8 md:w-[700px] lg:w-[900px] lg:px-10 '>
                     {/* todo: carousel */}
                     <Carousel effect="fade" className=''>
 
