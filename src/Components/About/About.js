@@ -38,41 +38,40 @@ function About() {
 
             <div className='grid grid-cols-1 gap-y-10 place-items-center md:grid-cols-2 lg:grid-cols-3'>
                 <div className="shrink-0 max-w-[300px]">
-                    <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
+                    {/* <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
                         <img
                             src="/Images/abhay1.jpg"
                             alt=""
                             className='object-cover  w-full h-full'
                         />
-                    </div>
+                    </div> */}
 
                     <div className=' bottom-0   bg-white text-clip px-5 py-2 shadow-md'>
-                        <p className=' text-[#545B77] text-xs md:text-xs xl:px-10 xl:text-xs'>Meet <span className='font-medium underline'>Abhay Raviya(CEO)</span>
+                        <p className=' text-[#545B77]  xl:px-3'>Meet <span className='font-medium underline'>Abhay Raviya(CEO)</span>
 
                             a mechanical engineer with a deep-rooted passion for textiles, leads our journey at <span className='font-medium underline'>FashinBuzz</span>. With a wealth of knowledge in textile technology and a keen eye for cloth design manufacturing, Abhay brings expertise and dedication to every aspect of our business. His commitment to quality and innovation forms the bedrock of our company's success. Trust in his vision to deliver excellence in every thread
                         </p>
                     </div>
                 </div>
                 <div className="shrink-0 max-w-[300px]">
-                    <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
+                    {/* <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
                         <img src="/Images/kuldeep1.jpg" alt="" className='object-contain w-full h-full' />
-                    </div>
+                    </div> */}
                     <div className=' bottom-0   bg-white text-clip px-5 py-2 shadow-md'>
-                        <p className=' text-[#545B77] text-xs md:text-xs xl:px-10 xl:text-xs'>Introducing <span className='font-medium underline'>Kuldeep Rathod(COO)</span>,
-
+                        <p className=' text-[#545B77]  xl:px-3 '>Introducing <span className='font-medium underline'>Kuldeep Rathod(COO)</span>,
                             At the helm of our operations stands Kuldeep Rathod, an IT engineer whose technical prowess is matched only by his exceptional interpersonal skills and profound business development acumen. Kuldeep's ability to bridge the worlds of technology and business is pivotal to our company's growth. He is your assurance of operational excellence and collaborative success.
                         </p>
                     </div>
                 </div>
 
                 <div className="shrink-0 max-w-[300px]">
-                    <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
+                    {/* <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
                         <img src="/Images/jaimeen1.jpg" alt="" className='object-contain w-full h-full' />
-                    </div>
+                    </div> */}
                     <div className=' bottom-0   bg-white text-clip px-5 py-2 shadow-md'>
-                        <p className=' text-[#545B77] text-xs md:text-xs xl:px-10 xl:text-xs'>Meet <span className='font-medium underline'>Jaimeen Makavana(CTO)</span>
+                        <p className=' text-[#545B77] xl:px-3'>Meet <span className='font-medium underline'>Jaimeen Makavana(CTO)</span>
 
-                            Jaimeen Makavana, a chemical engineer by degree and a software engineer at heart, leads the charge as our Chief Technology Officer (CTO). With a profound understanding of AI and technology, Jaimeen infuses innovation into every aspect of our operations.  in Jaimeen's vision to integrate cutting-edge technology seamlessly into our processes, making your experience with us truly exceptional.
+                          , a chemical engineer by degree and a software engineer at heart, leads the charge as our Chief Technology Officer (CTO). With a profound understanding of AI and technology, Jaimeen infuses innovation into every aspect of our operations.  in Jaimeen's vision to integrate cutting-edge technology seamlessly into our processes, making your experience with us truly exceptional.
                         </p>
                     </div>
                 </div>
