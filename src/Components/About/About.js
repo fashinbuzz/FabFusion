@@ -71,7 +71,7 @@ function About() {
                     <div className=' bottom-0   bg-white text-clip px-5 py-2 shadow-md'>
                         <p className=' text-[#545B77] xl:px-3'>Meet <span className='font-medium underline'>Jaimeen Makavana(CTO)</span>
 
-                          , a chemical engineer by degree and a software engineer at heart, leads the charge as our Chief Technology Officer (CTO). With a profound understanding of AI and technology, Jaimeen infuses innovation into every aspect of our operations.  in Jaimeen's vision to integrate cutting-edge technology seamlessly into our processes, making your experience with us truly exceptional.
+                            , a chemical engineer by degree and a software engineer at heart, leads the charge as our Chief Technology Officer (CTO). With a profound understanding of AI and technology, Jaimeen infuses innovation into every aspect of our operations.  in Jaimeen's vision to integrate cutting-edge technology seamlessly into our processes, making your experience with us truly exceptional.
                         </p>
                     </div>
                 </div>
