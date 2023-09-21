@@ -29,7 +29,11 @@ function Layout() {
         <div className="container min-w-full">
             <div className="grid grid-cols-2 px-2 py-2 border-b-[0.5px] md:grid-cols-5 md:px-10 xl:px-20">
                 <div className='md:col-span-1'>
-                    <p className='text-xl text-[#545b77] font-medium'>FashinBuzz</p>
+                    <Link to="/">
+                        <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
+                            <p className='text-xl text-[#545b77] font-medium'>FashinBuzz</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className='grid md:col-span-4'>
 

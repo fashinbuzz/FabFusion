@@ -22,7 +22,7 @@ function MainBlog() {
                 </div>
                 <div className='text-[#546B77] px-3'>
                     <p className='lg:text-2xl font-medium '>5 Factors to Consider while Choosing Clothing Manufacturers</p>
-                    <p className='text-xs md:text-sm my-3'>by Zyod
+                    <p className='text-xs md:text-sm my-3'>by Fashinbuzz
                         Aug 21, 2023 — 2 min read   </p>
 
                     <p className='text-sm'>Are you looking for the perfect wholesale clothing manufacturer to partner with for your store? With so many options on the market, it can be overwhelming to choose one that fits all of your needs. But fear not! In this blog post, we've gathered the top 5 factors you should...</p>
@@ -45,7 +45,7 @@ function MainBlog() {
                 </div>
                 <div className='text-[#546B77] px-3'>
                     <p className='lg:text-2xl font-medium '>5 Factors to Consider while Choosing Clothing Manufacturers</p>
-                    <p className='text-xs md:text-sm my-3'>by Zyod
+                    <p className='text-xs md:text-sm my-3'>by Fashinbuzz
                         Aug 21, 2023 — 2 min read   </p>
 
                     <p className='text-sm'>Are you looking for the perfect wholesale clothing manufacturer to partner with for your store? With so many options on the market, it can be overwhelming to choose one that fits all of your needs. But fear not! In this blog post, we've gathered the top 5 factors you should...</p>

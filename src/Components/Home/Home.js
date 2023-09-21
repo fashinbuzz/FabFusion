@@ -2,13 +2,16 @@ import React from 'react'
 import { Carousel } from 'antd';
 import Connect from '../Connect';
 import '../Style.css';
+import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className="container min-w-full sm:px-10 xl:px-20">
 
             <div className="grid text-center place-items-center">
                 <p className='text-xl mb-3 text-[#545B77] md:text-3xl font-medium'>One Stop Solution For <br />Fashion Manufacturing</p>
-                <button className='bg-[#545B77] px-3 py-1 rounded-md max-w-[300px] shrink-0 text-white md:text-2xl'>Connect with us</button>
+                <Link to="/connect">
+                    <button className='bg-[#545B77] px-3 py-1 rounded-md max-w-[300px] shrink-0 text-white md:text-2xl'>Connect with us</button>
+                </Link>
             </div>
 
             <div className="grid grid-cols-1 my-5 sm:grid-cols-2">
