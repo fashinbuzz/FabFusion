@@ -31,7 +31,7 @@ function Mail() {
 
     const handleForm = () => {
         axios
-            .post('http://localhost:8000/api/form', formData)
+            .post('fab-backend.vercel.app/api/form', formData)
             .then((response) => {
                 console.log('POST request successful:', response.data.data);
             })
@@ -101,7 +101,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                <label htmlFor="Interest" className=''>Interest</label>
+                    <label htmlFor="Interest" className=''>Interest</label>
                     <input
                         type='text'
                         id='Interest'
