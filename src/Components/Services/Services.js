@@ -40,15 +40,7 @@ function Services() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 place-items-center sm:grid-cols-2">
-                <div className='sm:order-2 lg:max-w-[550px] lg:flex justify-end items-center' >
-                    <img src="/Images/website.jpg" alt="" className='' />
-                </div>
-                <div className='bg-[#F3F6FF] text-center px-5 py-2 shadow-md md:max-h-[200px]'>
-                    <p className='text-lg text-[#545B77] mb-5 font-medium'>Website Development</p>
-                    <p className='text-sm text-[#545B77]'>Unlock the potential of your online presence with us! At FashinBuzz, we specialize in creating exceptional websites that not only look stunning but also perform flawlessly. Our team of expert developers combines creativity and technology to deliver web solutions tailored to your needs.</p>
-                </div>
-            </div>
+
 
             <div className='min-w-full'>
                 <Connect />

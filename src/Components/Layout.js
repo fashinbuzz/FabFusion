@@ -14,6 +14,7 @@ import MainBlog from './Blog/MainBlog';
 function Layout() {
 
     const [open, setOpen] = useState(false);
+    const [selectedLink, setSelectedLink] = useState(null);
     const [placement, setPlacement] = useState('right');
     const showDrawer = () => {
         setOpen(true);
@@ -28,10 +29,10 @@ function Layout() {
     return (
         <div className="container min-w-full">
             <div className="grid grid-cols-2 px-2 py-2 border-b-[0.5px] md:grid-cols-5 md:px-10 xl:px-20">
-                <div className='md:col-span-1'>
+                <div className='flex md:col-span-1 '>
                     <Link to="/">
-                        <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
-                            <p className='text-xl text-[#545b77] font-medium'>FashinBuzz</p>
+                        <div className='flex shrink-0 bg-[#545b77] px-2 justify-start text-sm items-center text-gray-600 hover:shadow-sm hover:shadow-black lg:text-xl xl:text-xl 2xl:text-2xl'>
+                            <p className='text-xl text-white font-medium'><span className='text-2xl '>F</span>ashin<span className='text-2xl'>B</span>uzz</p>
                         </div>
                     </Link>
                 </div>
@@ -80,7 +81,7 @@ function Layout() {
                                     <p className='font-medium  '>Categories</p>
                                 </div>
                             </Link>
-                            <Link to="/connect">
+                            <Link to="/connect" onClick={() => setOpen(false)}>
                                 <div className='flex shrink-0 justify-start  text-sm items-center mb-3 text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                     <p className='font-medium  '>Connect</p>
                                 </div>
@@ -91,37 +92,65 @@ function Layout() {
 
                     <div className='hidden md:flex gap-8 justify-between items-center xl:text-2xl'>
 
-                        <Link to="/">
+                        <Link to="/" className={`${selectedLink === 'home' ? 'underline' : ''}`} onClick={() => {
+                            setSelectedLink('home');
+                            setOpen(false);
+                        }}>
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Home</p>
                             </div>
                         </Link>
-                        <Link to="/about">
+                        <Link
+                            to="/about"
+                            className={`${selectedLink === 'about' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('about');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>About Us</p>
                             </div>
                         </Link>
-                        <Link to="/blog">
+                        <Link to="/blog"
+                            className={`${selectedLink === 'blog' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('blog');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Blog</p>
                             </div>
                         </Link>
-                        <Link to="/service">
+                        <Link to="/service"
+                            className={`${selectedLink === 'service' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('service');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Our Services</p>
                             </div>
                         </Link>
-                        <Link to="/process">
+                        <Link to="/process"
+                            className={`${selectedLink === 'process' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('process');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Process</p>
                             </div>
                         </Link>
-                        <Link to="/category">
+                        <Link to="/category"
+                            className={`${selectedLink === 'categ' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('categ');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Categories</p>
                             </div>
                         </Link>
-                        <Link to="/connect">
+                        <Link to="/connect"
+                            className={`${selectedLink === 'connect' ? 'underline' : ''}`} onClick={() => {
+                                setSelectedLink('connect');
+                                setOpen(false);
+                            }} >
                             <div className='flex shrink-0 justify-start  text-sm items-center text-gray-600 hover:text-black hover:duration-500 lg:text-xl xl:text-xl 2xl:text-2xl'>
                                 <p className='font-medium  '>Connect with us</p>
                             </div>

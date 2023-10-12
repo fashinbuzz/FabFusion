@@ -48,7 +48,7 @@ function Mail() {
                 onSubmit={handleSubmit}
             >
                 <div>
-                    <label htmlFor="Name" className=''>Name</label>
+                    <label htmlFor="Name" className=''>Name :</label>
                     <input
                         type='text'
                         className='border px-2 py-1 rounded-md min-w-full'
@@ -59,7 +59,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="Email" className=''>Email</label>
+                    <label htmlFor="Email" className=''>Email :</label>
                     <input
                         type='text'
                         className='border px-2 py-1 rounded-md min-w-full'
@@ -69,7 +69,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="Phone" className=''>Phone</label>
+                    <label htmlFor="Phone" className=''>Phone :</label>
                     <input
                         type='text'
                         className='border px-2 py-1 rounded-md min-w-full'
@@ -79,7 +79,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="Company_name" className=''>Company Name</label>
+                    <label htmlFor="Company_name" className=''>Company Name :</label>
                     <input
                         type='text'
                         id='Company_name'
@@ -90,7 +90,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="Message" className=''>Message</label>
+                    <label htmlFor="Message" className=''>Message :</label>
                     <textarea
                         type='text'
                         id='Message'
@@ -101,7 +101,7 @@ function Mail() {
                     />
                 </div>
                 <div>
-                <label htmlFor="Interest" className=''>Interest</label>
+                <label htmlFor="Interest" className=''>Interest :</label>
                     <input
                         type='text'
                         id='Interest'

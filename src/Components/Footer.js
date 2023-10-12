@@ -20,7 +20,9 @@ function Footer() {
             </div>
 
             <div className='grid gap-y-1  text-xs '>
-                <h3 className='border-b-[0.5px] text-base'>What we are?</h3>
+                <div className='flex'>
+                    <h3 className='border-b-[1px] text-base'>What we are?</h3>
+                </div>
                 <Link to="/about">
                     <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
                         <p className=''>About Us</p>
@@ -37,7 +39,29 @@ function Footer() {
                     </div>
                 </Link>
             </div>
+
             <div className='grid gap-y-1  text-xs '>
+                <div className='flex'>
+                    <h3 className='border-b-[1px] text-base'>What we provide?</h3>
+                </div>
+                <Link to="/category">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className=''>Product Categories</p>
+                    </div>
+                </Link>
+                <Link to="/service">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='  '>Our Services</p>
+                    </div>
+                </Link>
+                <Link to="/process">
+                    <div className='flex shrink-0 justify-start  text-sm items-center   lg:text-xl xl:text-xl 2xl:text-2xl'>
+                        <p className='  '>Our Process</p>
+                    </div>
+                </Link>
+            </div>
+
+            {/* <div className='grid gap-y-1  text-xs '>
                 <h3 className='border-b-[0.5px] text-base'>What we provide?</h3>
                 <Link to="/category">
                     <div className='flex shrink-0 justify-start  text-sm items-center mb-3    lg:text-xl xl:text-xl 2xl:text-2xl'>
@@ -54,7 +78,7 @@ function Footer() {
                         <p className='font-light  '>Our Process</p>
                     </div>
                 </Link>
-            </div>
+            </div> */}
 
             <div className='grid grid-cols-3 place-items-center pb-3 gap-y-1  border-black'>
                 <img src="/Images/Group 23132.png" alt="" className='w-6 xl:w-12' />

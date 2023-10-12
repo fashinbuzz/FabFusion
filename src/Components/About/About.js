@@ -9,8 +9,8 @@ function About() {
                 <p className='text-3xl font-medium'>Our Journey - From Fabrics to  Digitise Fashion</p>
                 <p className='text-xs md:text-base xl:text-lg'>For the past five years, FashinBuzz has been a trusted name in the textile industry, offering top-notch design, manufacturing, and delivery services. We've been the driving force behind many successful fashion endeavors, and now, we're excited to take our expertise online.</p>
                 <p className='text-xs md:text-base xl:text-lg'> Our story begins with a passion for textiles and a commitment to quality. Over the years, we've honed our skills, partnered with talented designers, and built a robust manufacturing and delivery network that ensures excellence every step of the way.</p>
-                <p>Today, we're proud to introduce our online platform, where you can experience the same dedication to quality and innovation that has defined us for half a decade. Join us on this new chapter of our journey as we bring fabrics to life and fashion to your doorstep.</p>
-                <p>Explore our website to discover the endless possibilities we offer, and be a part of our story as we continue to weave fashion dreams into reality.</p>
+                <p className='text-xs md:text-base xl:text-lg'>Today, we're proud to introduce our online platform, where you can experience the same dedication to quality and innovation that has defined us for half a decade. Join us on this new chapter of our journey as we bring fabrics to life and fashion to your doorstep.</p>
+                <p className='text-xs md:text-base xl:text-lg'>Explore our website to discover the endless possibilities we offer, and be a part of our story as we continue to weave fashion dreams into reality.</p>
             </div>
 
             <div className="grid grid-cols-1 gap-5 my-5 sm:grid-cols-2 xl:gap-10">
@@ -25,17 +25,6 @@ function About() {
                 </div>
             </div>
 
-            {/* <div className="grid grid-cols-1 mb-10 sm:grid-cols-2">
-                <div className='p-5 bg-[#F3F6FF] h-[300px]'>
-                    <img src="/Images/Group 23214.png" alt="" className='object-contain max-w-full max-h-full' />
-                </div>
-                <div className=' bottom-0   bg-white text-center px-5 py-2 shadow-md'>
-                    <p className='text-2xl text-[#545B77] mb-5'>Our Team</p>
-                    <p className=' text-[#545B77] text-xs md:text-base xl:px-10 xl:text-xl'>We believe - ‘Strength lies in diversity, not similarities’. Hence, we have created a diverse team comprising technologists, fashion designers, artists, researchers, marketers, and creative people. To pursue excellence, we provide a good working environment where they are inspired to curate tech-driven solutions and give their best while exploring the utmost creativity.</p>
-                </div>
-            </div> */}
-
-
             <div className='grid grid-cols-1 gap-y-10 place-items-center md:grid-cols-2 lg:grid-cols-3'>
                 <div className="shrink-0 max-w-[300px]">
                     {/* <div className='bg-[#F3F6FF] h-[300px]  flex justify-center items-center sm:order-2'>
@@ -48,7 +37,6 @@ function About() {
 
                     <div className=' bottom-0   bg-white text-clip px-5 py-2 shadow-md'>
                         <p className=' text-[#545B77]  xl:px-3'>Meet <span className='font-medium underline'>Abhay Raviya(CEO)</span>
-
                             a mechanical engineer with a deep-rooted passion for textiles, leads our journey at <span className='font-medium underline'>FashinBuzz</span>. With a wealth of knowledge in textile technology and a keen eye for cloth design manufacturing, Abhay brings expertise and dedication to every aspect of our business. His commitment to quality and innovation forms the bedrock of our company's success. Trust in his vision to deliver excellence in every thread
                         </p>
                     </div>

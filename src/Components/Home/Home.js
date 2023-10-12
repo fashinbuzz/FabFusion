@@ -54,43 +54,43 @@ function Home() {
 
             <div className="grid grid-cols-1 gap-y-3 text-center lg:grid-cols-2 gap-5 xl:grid-cols-4">
                 <div className='lg:col-span-2 xl:col-span-4'>
-                    <p className='text-xl mb-3 text-[#545B77]'>Our Services</p>
+                    <p className='text-xl mb-3 text-[#545B77] font-medium'>Our Services</p>
                 </div>
-                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-2 p-2">
+                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
+                    <div className="col-span-2 p-2 w-[200px] h-[200px] flex justify-center items-center">
                         <img src="/Images/service3.png" alt="" className=' min-w-full' />
                     </div>
-                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2 place-items-center">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2 place-items-center flex flex-col justify-center items-center">
                         <p className='font-medium text-lg'>Design</p>
                         <p>At FashinBuzz, innovation is at the core of what we do. we also provide state-of-the-art design solutions for garments that leverage the latest software and AI technologies.</p>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-2 p-2">
-                        <img src="/Images/service2.png" alt="" className=' min-w-full' />
+                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
+                    <div className="col-span-2 p-2 w-[200px] h-[200px] flex justify-center items-center">
+                        <img src="/Images/service2.png" alt="" className='min-w-full' />
                     </div>
-                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center px-2 flex flex-col justify-center items-center">
                         <p className='font-medium text-lg'>Manufacturing</p>
                         <p>we have harnessed the transformative capabilities of AI to revolutionize our manufacturing processes, ensuring the production of high-quality products that meet and exceed industry standards. </p>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-2 p-2">
-                        <img src="/Images/service1.png" alt="" className=' min-w-full' />
+                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
+                    <div className="col-span-2 p-2 w-[200px] h-[200px] flex justify-center items-center">
+                        <img src="/Images/service1.png" alt="" className='min-w-full' />
                     </div>
-                    <div className="col-span-3 text-[#545B77] text-sm text-center">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center flex flex-col justify-center items-center">
                         <p className='font-medium text-lg'>Delivery</p>
                         <p>Experience lightning-fast delivery with us! At FashinBuzz, we take pride in providing the quickest delivery times in the industry, and we have the statistics to prove it. </p>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden'>
-                    <div className="col-span-2 p-2">
+                <div className='grid grid-cols-5 border border-[#545b77] rounded-md overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
+                    <div className="col-span-2 p-2 w-[200px] h-[200px] flex justify-center items-center">
                         <img src="/Images/vs1.png" alt="" className=' min-w-full' />
                     </div>
-                    <div className="col-span-3 text-[#545B77] text-sm text-center">
+                    <div className="col-span-3 text-[#545B77] text-sm text-center flex flex-col justify-center items-center">
                         <p className='font-medium text-lg'>Virtual Sampling</p>
                         <p>Coming soon...</p>
                     </div>
@@ -103,7 +103,7 @@ function Home() {
                     <p className='text-xl mb-3 text-[#545B77]'>How can we help?</p>
                 </div>
 
-                <div className='border border-[#545b77] rounded-md  overflow-hidden'>
+                <div className='border border-[#545b77] rounded-md  overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23186.png" alt="" className='p-1 w-12' />
                         <p>Harnessing AI for Trend Prediction</p>
@@ -124,7 +124,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='border border-[#545b77] rounded-md  overflow-hidden'>
+                <div className='border border-[#545b77] rounded-md  overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23180.png" alt="" className='p-1 w-12' />
                         <p>Wide Variety of Designs in Limitless Fabric Options</p>
@@ -145,7 +145,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='border border-[#545b77] rounded-md  overflow-hidden'>
+                <div className='border border-[#545b77] rounded-md  overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23112 (2).png" alt="" className='p-1 w-12' />
                         <p>Minimum Order Quantity (MOQ) as Low as 100 Pieces per Style</p>
@@ -166,7 +166,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='border border-[#545b77] rounded-md  overflow-hidden'>
+                <div className='border border-[#545b77] rounded-md  overflow-hidden hover:-translate-y-1 hover:shadow-sm hover:shadow-black'>
                     <div className='flex justify-start items-center bg-[#F3F6FF] px-2 py-1 rounded-br-full'>
                         <img src="/Images/Group 23112 (1).png" alt="" className='p-1 w-12' />
                         <p>Design to Delivery fastest.</p>
@@ -250,40 +250,40 @@ function Home() {
                     {/* todo: carousel */}
                     <Carousel effect="fade" className=''>
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] text-[#545B77] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] text-[#545B77] md:h-[125px]'>
                             <p className='text-black text-xl'>1.What is benifit from your side?</p>
                             <p className='text-[#545b77]'>We have transparent supply chain and have best technology. for D2C fashionbrand, we are one of the top manufacturing service provider in india. we provide omnichannel platform.</p>
                         </div>
 
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>2.What is delivery time</p>
                             <p className='text-[#545b77]'>it may take around 2 to 3 weeks.</p>
                         </div>
 
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>3.Minimun Order quantity?</p>
                             <p className='text-[#545b77]'>100 pieces.</p>
                         </div>
 
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>4.You provide design or not?</p>
                             <p className='text-[#545b77]'>Yes, we provide design .</p>
                         </div>
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>5.what if I received damage peice in delivery?</p>
                             <p className='text-[#545b77]'>We have claim process.</p>
                         </div>
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>6.Payment condition?</p>
                             <p className='text-[#545b77]'>Any first 3 bill in advance then ww will provide credit facility.</p>
                         </div>
 
-                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] '>
+                        <div className=' border-2 rounded-md py-5 bg-[#F3F6FF] h-[125px]'>
                             <p className='text-black text-xl'>5.is there customer support available?</p>
                             <p className='text-[#545b77]'>We build relation by heart with our client , so we take your hurdles.</p>
                         </div>
