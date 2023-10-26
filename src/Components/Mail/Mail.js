@@ -126,7 +126,7 @@ function Mail() {
 
     return (
         <div className='container min-w-full grid place-items-center border px-10 rounded-lg shadow-sm py-10 md:px-10 xl:px-20'>
-            <h2 className='font-medium text-2xl text-[#545b77]'>FashibBuzz</h2>
+            <h2 className='font-medium text-2xl text-[#545b77]'>FashinBuzz</h2>
             <form ref={form}
                 className='grid grid-cols-1 gap-5 my-10 text-[#545b77]  p-3 sm:grid-cols-2 lg:grid-cols-3'
                 onSubmit={(e) => handleSubmit(e)}
@@ -168,11 +168,7 @@ function Mail() {
 
                 </div>
                 <div>
-<<<<<<< HEAD
                     <label htmlFor="Company_name" className=''>Company Name :</label>
-=======
-                    <label htmlFor="CompanyName" className=''>Company Name</label>
->>>>>>> 68746f7ac35752f6b8aff9ad8c1e18c4f214d31e
                     <input
                         type='text'
                         id='CompanyName'
@@ -200,11 +196,7 @@ function Mail() {
                     )}
                 </div>
                 <div>
-<<<<<<< HEAD
-                <label htmlFor="Interest" className=''>Interest :</label>
-=======
-                    <label htmlFor="Interest" className=''>Interest</label>
->>>>>>> 68746f7ac35752f6b8aff9ad8c1e18c4f214d31e
+                    <label htmlFor="Interest" className=''>Interest :</label>
                     <input
                         type='text'
                         id='Interest'
@@ -218,6 +210,10 @@ function Mail() {
                     )}
                 </div>
 
+
+            </form>
+            <div className='grid place-items-center'>
+
                 <button
                     type="submit"
                     className='border px-2 py-1 rounded-md max-w-[300px]'
@@ -225,8 +221,7 @@ function Mail() {
                 >
                     Submit
                 </button>
-            </form>
-
+            </div>
         </div>
     );
 }
