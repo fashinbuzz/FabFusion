@@ -1,7 +1,9 @@
 {
   "projects": {
-    "default": "fabfusion-93f2d",
-    "stagin": "fabfusion-93f2d"
+    "default": "fashin-buzz",
+    "stagin": "fabfusion-93f2d",
+    "production": "fashin-buzz",
+    "staging": "fashin-buzz"
   },
   "targets": {},
   "etags": {}

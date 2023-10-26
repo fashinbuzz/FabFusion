@@ -135,7 +135,7 @@ function Mail() {
                     <label htmlFor="Name" className=''>Name :</label>
                     <input
                         type='text'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none'
                         id='Name'
                         name='Name'
                         value={formData.Name}
@@ -147,7 +147,7 @@ function Mail() {
                     <label htmlFor="Email" className=''>Email :</label>
                     <input
                         type='text'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none'
                         name='Email'
                         value={formData.Email}
                         onChange={handleChange}
@@ -159,7 +159,7 @@ function Mail() {
                     <label htmlFor="Phone" className=''>Phone :</label>
                     <input
                         type='text'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none'
                         name='Phone'
                         value={formData.Phone}
                         onChange={handleChange}
@@ -172,7 +172,7 @@ function Mail() {
                     <input
                         type='text'
                         id='CompanyName'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none'
                         name='CompanyName'
                         value={formData.CompanyName}
                         onChange={handleChange}
@@ -186,7 +186,7 @@ function Mail() {
                     <textarea
                         type='text'
                         id='Message'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none'
                         name='Message'
                         value={formData.Message}
                         onChange={handleChange}
@@ -200,7 +200,7 @@ function Mail() {
                     <input
                         type='text'
                         id='Interest'
-                        className='border px-2 py-1 rounded-md min-w-full'
+                            className='border-[0.5px] px-2 py-1 rounded-md min-w-full hover:border-[#545b77] focus:border-[#545b77] focus:outline-none '
                         name='Interest'
                         value={formData.Interest}
                         onChange={handleChange}
@@ -216,7 +216,7 @@ function Mail() {
 
                 <button
                     type="submit"
-                    className='border px-2 py-1 rounded-md max-w-[300px]'
+                        className='border px-2 py-1 rounded-md max-w-[300px] hover:border-[#545b77] focus:border-[#545b77] focus:outline-none '
                 // onClick={handleForm}
                 >
                     Submit
